@@ -1,0 +1,98 @@
+.top-container{
+    display: block;
+    position: relative;
+    background-color: #e4f9f5
+}
+.title-text{
+    display: block;
+    text-align: center;
+    color: #66bfbf;
+}
+.title-text h1{
+    font-family: "Sacramento", cursive;
+    font-size: 5.625rem;
+}
+.title-text h2{
+    font-family: serif;
+    font-weight: normal;
+    font-size: 2.5rem;
+}
+.middle-container{
+    display: block;
+    margin: 100px auto;
+}
+.middle-container h2{
+    color: #66bfbf;
+}
+.profile{
+    text-align: center;
+    font-family: "Merriweather", serif
+}
+.profile img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+p.intro{
+    width: 50%;
+    margin: auto;
+}
+.skills{
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+    font-family: serif;
+}
+.skills h2{
+    color: #66bfbf;
+    font-size: 30px;
+}
+.parent{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    /* grid-template-rows: repeat(1, 1fr); */
+    width: 50%;
+    margin: 100px auto 0px auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+
+.typing{
+    display: block;
+    padding-top: 10px;
+    text-align: left;
+}
+.leetcode{
+    display: block;
+    text-align: left;
+}
+.contact-me{
+    text-align: center;
+}
+.contact-me h3{
+    color: cadetblue;
+}
+.contact-me p{
+    font-size: 20px;
+}
+.btn{
+    background: #11cdd4;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+}
+.bottom-container{
+    text-align: center;
+    display: block;
+    margin-top: 30px;
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+}
+a{
+    
+    text-decoration: none;
+    margin:  10px 20px;
+}
+.copyright{
+    color: white;
+}
